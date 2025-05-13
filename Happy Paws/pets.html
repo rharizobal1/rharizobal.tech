@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adoptable Pets Happy Paws Adoption</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Happy Paws</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="pets.html">Adoptable Pets</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoption.html">Adoption Form</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-accent text-white text-center py-5" style="background-image: url('images/pets-hero.jpg'); background-size: cover; background-position: center;">
+    <div class="container" style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 0.5rem;">
+      <h1 class="display-4 fw-bold">Find Your Furry Friend</h1>
+      <p class="lead">Browse our adoptable cats and dogs waiting for a loving home.</p>
+    </div>
+  </header>
+
+  <section class="container py-4">
+    <div class="filter-bar justify-content-center">
+      <div class="input-group" style="max-width: 400px;">
+        <span class="input-group-text"><i class="bi bi-search"></i></span>
+        <input type="text" class="form-control" placeholder="Search by name">
+      </div>
+      <select class="form-select" style="max-width: 200px;">
+        <option selected>All Species</option>
+        <option>Dogs</option>
+        <option>Cats</option>
+      </select>
+      <select class="form-select" style="max-width: 200px;">
+        <option selected>All Ages</option>
+        <option>0–1 year</option>
+        <option>1–3 years</option>
+        <option>3+ years</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="container py-4">
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/bella.jpeg" class="card-img-top" alt="Bella, 2 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Bella <small class="text-muted">• 2 yrs</small></h5>
+            <p class="card-text flex-grow-1">Friendly and energetic. Loves playing fetch and cuddles on the couch.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Bella</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/Max.jpg" class="card-img-top" alt="Max, 4 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Max <small class="text-muted">• 4 yrs</small></h5>
+            <p class="card-text flex-grow-1">Calm and affectionate. Enjoys long naps and gentle belly rubs.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Max</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/luna.jpg" class="card-img-top" alt="Luna, 1 year old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Luna <small class="text-muted">• 1 yr</small></h5>
+            <p class="card-text flex-grow-1">Playful and curious. Always exploring and loves chasing toys.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Luna</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/charlie.jpg" class="card-img-top" alt="Charlie, 3 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Charlie <small class="text-muted">• 3 yrs</small></h5>
+            <p class="card-text flex-grow-1">Gentle and loyal. Great with kids and loves outdoor walks.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Charlie</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/milo.jpg" class="card-img-top" alt="Milo, 2 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Milo <small class="text-muted">• 2 yrs</small></h5>
+            <p class="card-text flex-grow-1">Affectionate and smart. Knows a few tricks and loves treats.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Milo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/golden.jpg" class="card-img-top" alt="Simba, 5 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Simba <small class="text-muted">• 5 yrs</small></h5>
+            <p class="card-text flex-grow-1">Laid-back golden retriever who loves water.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Simba</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/calicat.jpg" class="card-img-top" alt="Cleo, 3 years old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Cleo <small class="text-muted">• 3 yrs</small></h5>
+            <p class="card-text flex-grow-1">Curious calico cat who loves windowsills.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Cleo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="images/kit.jpg" class="card-img-top" alt="Oliver, 1 year old" loading="lazy" width="259" height="259">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Oliver <small class="text-muted">• 1 yr</small></h5>
+            <p class="card-text flex-grow-1">Affectionate kitten who purrs nonstop.</p>
+            <a href="pets.html" class="btn btn-primary mt-2">Adopt Oliver</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-light text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Happy Paws Adoption Shelter</p>
+      <p class="mb-0">
+        <a href="#" class="text-decoration-none">Privacy Policy</a> |
+        <a href="#" class="text-decoration-none">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>
